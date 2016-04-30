@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Tribute to Uncle Marty</title>
+
+    <!-- CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/Memory.css">
+
+    <!-- Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<style>
+	.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+</style>
+
+<body>
+
+    <div class="brand" style="background-color:lightblue;">Tribute to Marty Kriner</div>
+    <div class="address-bar" style="background-color:lightblue;" margin-bottom="10px;">Son, Husband, Father, Brother, Uncle</div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
+                <a class="navbar-brand" href="index.html">Marty's Tribute</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="Tribute.html">Tribute</a>
+                    </li>
+                    <li>
+                        <a href="learn.html">Learn About</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+    <div id="slideshow">
+       <a href="#" class="slideshow-prev">&laquo;</a> 
+       <ul>
+            <li><img id=slider src="../Pictures/pic1.jpg" alt="photo1" /></li>
+            <li><img id=slider src="../Pictures/pic2.jpg" alt="photo2" /></li>
+            <li><img id=slider src="../Pictures/pic3.jpg" alt="photo3" /></li>
+            <li><img id=slider src="../Pictures/pic4.jpg" alt="photo4" /></li>
+            <li><img id=slider src="../Pictures/pic5.jpg" alt="photo5" /></li>
+            <li><img id=slider src="../Pictures/pic6.jpg" alt="photo6" /></li>
+            <li><img id=slider src="../Pictures/pic7.jpg" alt="photo7" /></li>
+            <li><img id=slider src="../Pictures/pic8.jpg" alt="photo8" /></li>
+            <li><img id=slider src="../Pictures/pic9.jpg" alt="photo9" /></li>
+            <li><img id=slider src="../Pictures/pic10.jpg" alt="photo10" /></li>
+            <li><img id=slider src="../Pictures/pic11.jpg" alt="photo11" /></li>
+            <li><img id=slider src="../Pictures/pic12.jpg" alt="photo12" /></li>
+            <li><img id=slider src="../Pictures/pic13.jpg" alt="photo13" /></li>
+       </ul>
+        <a href="#" class="slideshow-next">&raquo;</a> 
+
+    </div>
+    
+    <form action="../php/checkbox-form.php" method="post">
+    <ul class="checkbox-grid">
+    <div class="box" style="background-color:lightblue; width:960px; height:200px; display:block; margin-left: auto;  margin-right: auto;" >
+    	<h2 class="intro-text text-center">Which Picture is Your Favorite
+                    </h2><br>
+    	<li><input type="checkbox" name="Checkbox1" value="Marty_on_Halloween"/>
+    	  <label for="Checkbox1"> Marty_on_Halloween</label></li>  
+    	<li><input type="checkbox" name="Checkbox2" value="Marty&Tara1"/>
+    		<label for="Checkbox2"> Marty & Tara 1</label></li> 
+    	<li><input type="checkbox" name="Checkbox3" value="Marty&Tara2" />
+    		<label for="Checkbox3"> Marty & Tara 2</label></li> 
+    	<li><input type="checkbox" name="Checkbox4" value="Marty&Tara3"/>
+    		<label for="Checkbox4"> Marty & Tara 3</label></li> 
+    	<li><input type="checkbox" name="Checkbox5" value="Marty&Friends"/>
+    		<label for="Checkbox5"> Marty & Friends</label></li> 
+    	<li><input type="checkbox" name="Checkbox6" value="Marty&Tara4"/>
+    		<label for="Checkbox6"> Marty & Tara 4</label></li> 
+    	<li><input type="checkbox" name="Checkbox7" value="MartyatConcert"/>
+    		<label for="Checkbox7"> Marty at Concert</label></li> 
+    	<li><input type="checkbox" name="Checkbox8" value="MartywithCoworkers"/>
+    		<label for="Checkbox8"> Marty with co-worker</label></li> 
+    	<li><input type="checkbox" name="Checkbox9" value="MartyCollage"/>
+    		<label for="Checkbox9"> Marty Collage</label></li> 
+    	<li><input type="checkbox" name="Checkbox10" value="Marty&Tara5"/>
+    		<label for="Checkbox10"> Marty & Tara 5</label></li> 
+    	<li><input type="checkbox" name="Checkbox11" value="MartyatBallGame"/>
+    		<label for="Checkbox11"> Marty & Tara at a ball game </label></li> 
+    	<li><input type="checkbox" name="Checkbox12" value="MartyCabin"/>
+    		<label for="Checkbox12"> Marty & Tara at a cabin</label></li> 
+    	<li><input type="checkbox" name="Checkbox13" value="Marty&Tara6"/>
+    		<label for="Checkbox13"> Marty & Tara 6</label></li> 
+    	<li><input type="submit" name="formSubmit" value="Submit"/>
+    </div>	
+    </ul>	
+	</form>
+	<div class="quizsubmitbutton">
+		<input id="startQuiz" type="submit" value="Take A Quiz on Marty"/>
+	</div>
+	<div id="quizzing" class="box" style="display:none">
+		<div id= "quiz"></div>
+	</div>
+	<div id="obituary" class="box"> 
+		<p>Click the link below to see Marty's obituary</p>
+		<a href="http://www.legacy.com/obituaries/schuylkill/obituary.aspx?pid=175896945">Marty's Obiturary</a>
+	</div>	
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="../js/Tribute.js"></script>
+
+</body>
+
+</html>

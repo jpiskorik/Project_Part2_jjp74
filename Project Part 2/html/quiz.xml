@@ -1,0 +1,32 @@
+<quiz-problems>
+	<problem>
+		<question>What was Martys favorite football team</question>
+		<answer>Eagles</answer>
+		<answer>Cardinals</answer>
+		<answer>Steelers</answer>
+		<answer>Packers</answer>
+		<correct>Steelers</correct>
+	</problem>
+	<problem>
+		<question>What is the names of Martys two dogs?</question>
+		<answer>Steele and Maggie</answer>
+		<answer>Bonnie and Clyde</answer>
+		<answer>Tom and Sawyer</answer>
+		<correct>Steele and Maggie</correct>
+	</problem>
+	<problem>
+		<question>What was Martys favorite pastime?</question>
+		<answer>Bowling</answer>
+		<answer>Hunting</answer>
+		<answer>Skydiving</answer>
+		<correct>Hunting</correct>
+	</problem>
+	<problem>
+		<question>What was Martys favorite tv broadcaster</question>
+		<answer>TBS</answer>
+		<answer>TNT</answer>
+		<answer>FX</answer>
+		<answer>ESPN</answer>
+		<correct>ESPN</correct>
+	</problem>
+</quiz-problems>
